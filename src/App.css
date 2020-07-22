@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+.navLinks {
+  color: black;
+}
+.navLinks:hover {
+  /* transition: all ease-in-out 1s; */
+  text-decoration: none;
+  color: black;
+  padding: 2px;
+  border-bottom: 3px solid #5eaf50;
+}
+/* logo with my Initials hover effects */
+.logo {
+  border: 5px solid black !important;
+  padding: 10px;
+}
+.logo:hover {
+  animation: animation1 2s linear infinite;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
+@keyframes animation1 {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
 }
+/* hover effect finishes */
