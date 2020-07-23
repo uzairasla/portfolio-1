@@ -7,11 +7,14 @@ function Hero() {
     <React.Fragment>
       <div className="container ">
         <div className="row">
-          <div className="col-6">
-            <span className="display-4 text-muted">Hi!</span>
+          <div className="col-6 d-flex flex-wrap flex-column align-items-center mt-5">
+            <p className="display-4 text-muted">Hi!</p>
             <p className="typing ">
-              My name is Uzair Aslam, and i am a UI/UX Designer and a Front End
-              Developer.
+              My name is Uzair Aslam, and i am a <span>UI/UX Designer</span> and
+              a <span>Front End Developer.</span> I have skills in managing,
+              designing and developing web solutions, through successful
+              high-fidelity mockups, effective analysis, testing,
+              troubleshooting and deployment.
             </p>
           </div>
           <div className="col-6">
