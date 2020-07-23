@@ -4,9 +4,10 @@
 .navLinks:hover {
   /* transition: all ease-in-out 1s; */
   text-decoration: none;
+  transition: ease 1s;
   color: black;
-  padding: 2px;
-  border-bottom: 3px solid #5eaf50;
+  /* padding: 2px; */
+  border-bottom: 1px solid #5eaf50;
 }
 /* logo with my Initials hover effects */
 .logo {
