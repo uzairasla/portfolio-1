@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./Components/Header";
 import { BrowserRouter } from "react-router-dom";
 import Hero from "./Components/Hero";
+import JobTabs from "./Components/Experience";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <div>
         <Header />
         <Hero />
+        <div className="container">
+          <JobTabs />
+        </div>
       </div>
     </BrowserRouter>
   );
