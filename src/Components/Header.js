@@ -10,9 +10,9 @@ const Header = () => {
         </NavLink>
 
         <div className="ml-auto h5 mr-3">
-          <NavLink to="#projects" className=" navLinks">
+          <a href="#projects" className=" navLinks">
             Projects
-          </NavLink>
+          </a>
         </div>
       </div>
     </nav>

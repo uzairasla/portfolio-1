@@ -5,6 +5,7 @@ import Header from "./Components/Header";
 import { BrowserRouter } from "react-router-dom";
 import Hero from "./Components/Hero";
 import JobTabs from "./Components/Experience";
+import ProjectHelper from "./Components/ProjectHelper";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <div className="container">
           <JobTabs />
+          <ProjectHelper />
         </div>
       </div>
     </BrowserRouter>
