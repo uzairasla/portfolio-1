@@ -9,7 +9,7 @@ function Hero() {
         <div className="row">
           <div className="col-6 d-flex flex-wrap flex-column align-items-center mt-5">
             <p className="display-4 text-muted">Hi!</p>
-            <p className="typing ">
+            <p>
               My name is Uzair Aslam, and i am a <span>UI/UX Designer</span> and
               a <span>Front End Developer.</span> I have skills in managing,
               designing and developing web solutions, through successful
@@ -18,7 +18,7 @@ function Hero() {
             </p>
           </div>
           <div className="col-6">
-            <img src={hero} className=" mt-3" />
+            <img src={hero} className="e mt-3" />
           </div>
         </div>
         <hr />

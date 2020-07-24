@@ -10,8 +10,18 @@ const Header = () => {
         </NavLink>
 
         <div className="ml-auto h5 mr-3">
-          <a href="#projects" className=" navLinks">
+          <a href="#projects" className=" navLinks mr-5">
             Projects
+          </a>
+          <a href="#experience" className=" navLinks mr-5">
+            Experience
+          </a>
+          <a
+            href="https://docs.google.com/document/d/1HDWGVqKGTePlIWffWaFhIDAu0v2YPxSCOJyIPGakgNQ/edit?usp=sharing"
+            target="_blank"
+            className=" navLinks "
+          >
+            Resume
           </a>
         </div>
       </div>

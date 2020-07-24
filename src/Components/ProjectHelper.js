@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import Chip from "@material-ui/core/Chip";
 import realestate from "../images/realestate.PNG";
 import ecommerce from "../images/ecommerce.PNG";
+import ContactUs from "./ContactUs";
 
 function ProjectHelper() {
   return (
@@ -47,6 +48,7 @@ function ProjectHelper() {
           className="mr-1"
         />
       </Projects>
+
       <Projects
         projectImg={netflixproject}
         projectTitle="Movie Search Engine"
